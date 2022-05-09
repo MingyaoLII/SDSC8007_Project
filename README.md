@@ -7,19 +7,19 @@ Project Name: Multimodal Sentiment Classification in Amazon Review with mBERT Mo
 ## Requirement
 
         PyTorch 1.11.0+cu113
-        Python 3..9.7
+        Python 3.9.7
 
 
 ## Download images data and ResNet-152
-- Step 1: Download the amazon associated images via [this link](https://drive.google.com/file/d/1WKHXG5L38ip3LddqgRaLi8zmk0cZp6nz/view?usp=sharing)
+- Step 1: Download the amazon review associated images: [amazon_images.zip](https://drive.google.com/file/d/1WKHXG5L38ip3LddqgRaLi8zmk0cZp6nz/view?usp=sharing) (Google Drive)
 - Step 2: Unzip `amazon_images.zip` to `./data/`. Make sure all images are under `./data/amazon_images/`
-- Step 3: Download the pre-trained ResNet-152 via [this link](https://download.pytorch.org/models/resnet152-b121ed2d.pth)
+- Step 3: Download the pre-trained [ResNet-152](https://download.pytorch.org/models/resnet152-b121ed2d.pth) (.pth file)
 - Setp 4: Put the pre-trained ResNet-152 model under the folder named "resnet"
 
 ## Code Usage
 
 ### (Optional) Preprocessing
-- This is optional, because the data is already pre-processed under the folder named "absa_data"
+- This is optional, because the data is already pre-processed under the folder named "absa_data" as an example.
 
 ```sh
 python process_absa_data.py
