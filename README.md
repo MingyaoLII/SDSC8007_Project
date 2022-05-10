@@ -14,7 +14,7 @@ Project Name: Multimodal Sentiment Classification in Amazon Review with mBERT Mo
 - Step 1: Download the amazon review associated images: [amazon_images.zip](https://drive.google.com/file/d/1WKHXG5L38ip3LddqgRaLi8zmk0cZp6nz/view?usp=sharing) (Google Drive)
 - Step 2: Unzip `amazon_images.zip` to `./data/`. Make sure all images are under `./data/amazon_images/`
 - Step 3: Download the pre-trained [ResNet-152](https://download.pytorch.org/models/resnet152-b121ed2d.pth) (.pth file)
-- Setp 4: Put the pre-trained ResNet-152 model under the folder named "resnet"
+- Setp 4: Put the pre-trained ResNet-152 model under `./resnet/`
 
 ## Code Usage
 
